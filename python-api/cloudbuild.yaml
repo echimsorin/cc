@@ -1,0 +1,19 @@
+steps:
+
+# Install dependencies
+- name: python
+  entrypoint: pip
+  dir: './python-api/'
+  args: ["install", "-r", "requirements.txt", "--user"]
+
+# Run tests
+- name: python
+  entrypoint: python
+  dir: './python-api/'
+  args: ["-m", "pytest", "--junitxml=${SHORT_SHA}_test_log.xml"]
+
+# Deploy
+- name: "gcr.io/cloud-builders/gcloud"
+  dir: './python-api/'
+  args: ["app", "deploy"]
+timeout: "1600s"

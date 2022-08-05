@@ -1,0 +1,12 @@
+runtime: python39
+entrypoint: gunicorn -b :$PORT run:app
+
+
+# Remember - storing secrets in plaintext is potentially unsafe. Consider using
+# something like https://cloud.google.com/secret-manager/docs/overview to help keep
+# secrets secret.
+env_variables:
+  CLOUD_SQL_CONNECTION_HOST: INSERT_IP_ADDRESS_HERE
+  DB_USER: INSERT_USERNAME_HERE
+  DB_PASS: INSERT_PASSWORD_HERE
+  DB_NAME: INSERT_DBNAME_HERE
