@@ -14,7 +14,7 @@ def create_app():
     CORS(app)
 
     # The flask_restx library helps us to create documentation at the /swagger-ui/ endpoint
-    api = Api(app, title="Bonds API", version="0.1", doc="/swagger-ui/")
+    api = Api(app, title="Dogs API", version="0.1", doc="/swagger-ui/")
 
     # Connect your database
     if os.getenv("GAE_ENV", "").startswith("standard"):
@@ -35,7 +35,7 @@ def create_app():
     # Start the connector (found in extensions.py)
     mysql.init_app(app)
 
-    # We add the Bonds module
+    # We add the Dogs module
     api.add_namespace(dogs_api, path="/dogs")
 
     @app.route("/health")
