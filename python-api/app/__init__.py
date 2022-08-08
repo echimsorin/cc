@@ -2,7 +2,7 @@ from flask import Flask, jsonify
 from flask_restx import Api
 from flask_cors import CORS
 from app.extensions import mysql
-from app.Bonds.controller import api as bonds_api
+from app.Bonds.controller import api as dogs_api
 import os
 
 
@@ -36,7 +36,7 @@ def create_app():
     mysql.init_app(app)
 
     # We add the Bonds module
-    api.add_namespace(bonds_api, path="/dogs")
+    api.add_namespace(dogs_api, path="/dogs")
 
     @app.route("/health")
     def health():
