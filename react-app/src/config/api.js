@@ -1,1 +1,1 @@
-export const hostNameUrl = "http://127.0.0.1:5000";
+export const hostNameUrl = "https://db-grads-5ols-group-7.nw.r.appspot.com";
