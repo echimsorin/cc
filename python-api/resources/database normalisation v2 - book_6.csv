@@ -1,0 +1,12 @@
+trade_type,trade_currency,quantity,trade_settlement_date,trade_status,trade_date,unit_price,coupon_percent,bond_currency,cusip,face_value (mn),isin,issuer_name,bond_maturity_date,status,type,bond_holder
+buy,GBP,1100,27/09/2021,open,27/09/2021,110.35,0.75,GBP,BDCHBW8,900,GB00B6460505,HM Treasury United Kingdon,09/08/2021,active,GOVN,Goldman Sachs
+sell,GBP,900,28/09/2021,open,28/09/2021,110.35,0.75,GBP,BDCHBW8,900,GB00B6460506,HM Treasury United Kingdon,09/08/2021,active,GOVN,Goldman Sachs
+buy,GBP,2000,29/09/2021,open,29/09/2021,110.35,0.75,GBP,BDCHBW8,900,GB00B6460507,HM Treasury United Kingdon,09/08/2021,active,GOVN,UBS
+sell,GBP,2000,30/09/2021,open,30/09/2021,110.35,0.75,GBP,BDCHBW8,900,GB00B6460508,HM Treasury United Kingdon,09/08/2021,active,GOVN,UBS
+buy,GBP,1000,01/10/2021,open,01/10/2021,110.35,0.75,GBP,BDCHBW8,900,GB00B6460509,HM Treasury United Kingdon,09/08/2021,active,GOVN,Barclays
+buy,GBP,900,02/10/2019,open,02/10/2019,110.35,0.75,GBP,BDCHBW8,900,GB00B6460510,HM Treasury United Kingdon,09/08/2021,active,GOVN,Barclays
+sell,GBP,1900,03/10/2019,open,03/10/2019,110.35,0.75,GBP,BDCHBW8,900,GB00B6460511,HM Treasury United Kingdon,09/08/2021,active,GOVN,Barclays
+buy,GBP,600,04/10/2018,open,04/10/2018,110.35,0.75,GBP,BDCHBW8,900,GB00B6460512,HM Treasury United Kingdon,09/08/2021,active,GOVN,British Telecom
+buy,GBP,600,05/10/2019,open,05/10/2019,110.35,0.75,GBP,BDCHBW8,900,GB00B6460513,HM Treasury United Kingdon,09/08/2021,active,GOVN,Pension Holdings
+buy,GBP,700,06/06/2021,open,06/06/2021,110.35,0.75,GBP,BDCHBW8,900,GB00B6460514,HM Treasury United Kingdon,09/08/2021,active,GOVN,Pension Holdings
+sell,GBP,1300,07/10/2021,open,07/10/2011,110.35,0.75,GBP,BDCHBW8,900,GB00B6460515,HM Treasury United Kingdon,09/08/2021,active,GOVN,Pension Holdings

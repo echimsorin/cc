@@ -1,0 +1,20 @@
+book_name,bond_holder,isin,cusip,issuer_name,type,unit_price,coupon_percent,bond_currency,bond_maturity_date,status
+Trading_book_1,AZ Holdings Inc,XS1988387210,,"BNPParibasIssu 4,37% Microsoft Corp (USD)",CORP,90,4.37,USD,05/08/2021,active
+Trading_book_2,Acme Co,USN0280EAR64,123456780,Airbus 3.15%  USD,CORP,105.775,3.15,USD,30/07/2021,active
+Trading_book_2,Astra Trading Ltd,USN0280EAR64,123456780,Airbus 3.15%  USD,CORP,105.775,3.15,USD,30/07/2021,active
+Trading_book_2,Sovereign Investments,A12356111,123456bh0,UBS Facebook (USD),CORP,90,2,USD,30/09/2021,active
+Trading_book_3,Sovereign Investments,A12356111,123456bh0,UBS Facebook (USD),CORP,90,2,USD,30/09/2021,active
+Trading_book_4,Muncipal Gov Of Orange County,USU02320AG12,AMZN 3.15 08/22/27 REGS,Amazon,CORP,98.56,3.15,USD,03/08/2021,active
+Trading_book_4,Zurich Pension fund 4,US87973RAA86,87973RAA8,TEMASEK FINL I LTD GLOBAL MEDIUM TERM NTS BOOK ENTRY REG S,SOVN,100.13,2.02,USD,06/08/2021,active
+Trading_book_4,Zurich Pension fund 4,IE00B29LNP31,87973RAA8,First Norway Alpha Kl.IV,SOVN,98.76,1.123,USD,22/12/2030,active
+Trading_book_6,Goldman Sachs,GB00B6460505,BDCHBW8,HM Treasury United Kingdon,GOVN,110.35,0.75,GBP,09/08/2021,active
+Trading_book_6,Goldman Sachs,GB00B6460506,BDCHBW8,HM Treasury United Kingdon,GOVN,110.35,0.75,GBP,09/08/2021,active
+Trading_book_6,UBS,GB00B6460507,BDCHBW8,HM Treasury United Kingdon,GOVN,110.35,0.75,GBP,09/08/2021,active
+Trading_book_6,UBS,GB00B6460508,BDCHBW8,HM Treasury United Kingdon,GOVN,110.35,0.75,GBP,09/08/2021,active
+Trading_book_6,Barclays,GB00B6460509,BDCHBW8,HM Treasury United Kingdon,GOVN,110.35,0.75,GBP,09/08/2021,active
+Trading_book_6,Barclays,GB00B6460510,BDCHBW8,HM Treasury United Kingdon,GOVN,110.35,0.75,GBP,09/08/2021,active
+Trading_book_6,Barclays,GB00B6460511,BDCHBW8,HM Treasury United Kingdon,GOVN,110.35,0.75,GBP,09/08/2021,active
+Trading_book_6,British Telecom,GB00B6460512,BDCHBW8,HM Treasury United Kingdon,GOVN,110.35,0.75,GBP,09/08/2021,active
+Trading_book_6,Pension Holdings,GB00B6460513,BDCHBW8,HM Treasury United Kingdon,GOVN,110.35,0.75,GBP,09/08/2021,active
+Trading_book_6,Pension Holdings,GB00B6460514,BDCHBW8,HM Treasury United Kingdon,GOVN,110.35,0.75,GBP,09/08/2021,active
+Trading_book_6,Pension Holdings,GB00B6460515,BDCHBW8,HM Treasury United Kingdon,GOVN,110.35,0.75,GBP,09/08/2021,active

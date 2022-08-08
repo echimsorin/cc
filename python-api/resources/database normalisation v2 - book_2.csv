@@ -1,0 +1,3 @@
+trade_type,trade_currency,quantity,trade_settlement_date,trade_status,trade_date,unit_price,coupon_percent,bond_currency,cusip,face_value (mn),isin,issuer_name,bond_maturity_date,status,type,bond_holder
+buy,USD,50,04/08/2021,open,13/05/2021,90,4.37,USD,,1000,XS1988387210,"BNPParibasIssu 4,37% Microsoft Corp (USD)",05/08/2021,active,CORP,AZ Holdings Inc
+sell,GBP,40,04/08/2021,open,04/02/2021,89.56,4.37,USD,,1000,XS1988387210,"BNPParibasIssu 4,37% Microsoft Corp (USD)",05/08/2021,active,CORP,AZ Holdings Inc
