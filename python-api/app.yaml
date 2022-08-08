@@ -6,7 +6,7 @@ entrypoint: gunicorn -b :$PORT run:app
 # something like https://cloud.google.com/secret-manager/docs/overview to help keep
 # secrets secret.
 env_variables:
-  CLOUD_SQL_CONNECTION_HOST: INSERT_IP_ADDRESS_HERE
-  DB_USER: INSERT_USERNAME_HERE
-  DB_PASS: INSERT_PASSWORD_HERE
-  DB_NAME: INSERT_DBNAME_HERE
+  CLOUD_SQL_CONNECTION_HOST: 35.189.88.244
+  DB_USER: team-group-7
+  DB_PASS: CcF86q7iaeiWQwf2wy4B6KGUR
+  DB_NAME: bonds-group-7

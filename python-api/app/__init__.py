@@ -2,7 +2,7 @@ from flask import Flask, jsonify
 from flask_restx import Api
 from flask_cors import CORS
 from app.extensions import mysql
-from app.Dogs.controller import api as dogs_api
+from app.Bonds.controller import api as bonds_api
 import os
 
 
@@ -14,7 +14,7 @@ def create_app():
     CORS(app)
 
     # The flask_restx library helps us to create documentation at the /swagger-ui/ endpoint
-    api = Api(app, title="Dogs API", version="0.1", doc="/swagger-ui/")
+    api = Api(app, title="Bonds API", version="0.1", doc="/swagger-ui/")
 
     # Connect your database
     if os.getenv("GAE_ENV", "").startswith("standard"):
@@ -29,14 +29,14 @@ def create_app():
         app.config["MYSQL_DATABASE_HOST"] = "localhost"
         app.config["MYSQL_DATABASE_PORT"] = 3306
         app.config["MYSQL_DATABASE_USER"] = "root"
-        app.config["MYSQL_DATABASE_PASSWORD"] = "Password123"
-        app.config["MYSQL_DATABASE_DB"] = "pets"
+        app.config["MYSQL_DATABASE_PASSWORD"] = "Pa55w.rd"
+        app.config["MYSQL_DATABASE_DB"] = "testdb"
 
     # Start the connector (found in extensions.py)
     mysql.init_app(app)
 
-    # We add the Dogs module
-    api.add_namespace(dogs_api, path="/dogs")
+    # We add the Bonds module
+    api.add_namespace(bonds_api, path="/dogs")
 
     @app.route("/health")
     def health():
