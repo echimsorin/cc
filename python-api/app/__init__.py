@@ -2,7 +2,7 @@ from flask import Flask, jsonify
 from flask_restx import Api
 from flask_cors import CORS
 from app.extensions import mysql
-from app.Bonds.controller import api as dogs_api
+from app.Dogs.controller import api as dogs_api
 import os
 
 
