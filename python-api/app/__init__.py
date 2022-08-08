@@ -29,8 +29,8 @@ def create_app():
         app.config["MYSQL_DATABASE_HOST"] = "localhost"
         app.config["MYSQL_DATABASE_PORT"] = 3306
         app.config["MYSQL_DATABASE_USER"] = "root"
-        app.config["MYSQL_DATABASE_PASSWORD"] = "Password123"
-        app.config["MYSQL_DATABASE_DB"] = "pets"
+        app.config["MYSQL_DATABASE_PASSWORD"] = "Pa55w.rd"
+        app.config["MYSQL_DATABASE_DB"] = "code_c"
 
     # Start the connector (found in extensions.py)
     mysql.init_app(app)
