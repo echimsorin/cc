@@ -19,11 +19,11 @@ def create_app():
     # Connect your database
     if os.getenv("GAE_ENV", "").startswith("standard"):
         # For production in Google App Engine Standard
-        app.config["MYSQL_DATABASE_HOST"] = os.environ["CLOUD_SQL_CONNECTION_HOST"]
+        app.config["MYSQL_DATABASE_HOST"] = os.environ["35.189.88.244"]
         app.config["MYSQL_DATABASE_PORT"] = 3306
-        app.config["MYSQL_DATABASE_USER"] = os.environ["DB_USER"]
-        app.config["MYSQL_DATABASE_PASSWORD"] = os.environ["DB_PASS"]
-        app.config["MYSQL_DATABASE_DB"] = os.environ["DB_NAME"]
+        app.config["MYSQL_DATABASE_USER"] = os.environ["team-group-7"]
+        app.config["MYSQL_DATABASE_PASSWORD"] = os.environ["CcF86q7iaeiWQwf2wy4B6KGUR"]
+        app.config["MYSQL_DATABASE_DB"] = os.environ["bonds-group-7"]
     else:
         # For local execution
         app.config["MYSQL_DATABASE_HOST"] = "localhost"
