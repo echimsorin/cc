@@ -1,0 +1,13 @@
+------------------------------------------------
+IP Address    : "35.189.88.244"
+Username      : "team-group-7"
+Password      : "CcF86q7iaeiWQwf2wy4B6KGUR"
+Plaintext pwd : "929179d9cf84003d1a9b949a452aaccb0bbceb4c9c8d6e7965eed4f8052ddb64"
+Database name : "bonds-group-7"
+------------------------------------------------
+---------------------------------------------------
+Project ID    : db-grads-5ols-group-7
+Project Name  : DB Grads 2022 - Group 7
+Repo URL      : https://source.developers.google.com/p/db-grads-5ols-group-7/r/arrakis
+AppEngine Name: apps/db-grads-5ols-group-7
+---------------------------------------------------
