@@ -10,6 +10,7 @@ def create_app():
     # Create a Flask application
     app = Flask(__name__)
 
+
     # Allow cross-origin resource sharing to let the front end access the backend
     CORS(app)
 
